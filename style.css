@@ -1,0 +1,211 @@
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	 background-image: linear-gradient(to bottom right, rgb(31, 100, 196), rgb(187, 63, 224));
+	 height: 100%;
+	 margin: 0;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 align-items: center;
+	 justify-content: center;
+}
+
+#myPicture {
+    padding:2px;
+}
+
+#myPictureID {
+    border: 4px solid rgb(58, 87, 167);
+    border-radius: 50px;
+}
+
+#myPictureJumbo {
+	border-radius: 95px;
+	/* border: 8px solid rgb(59, 16, 116); */
+}
+
+.backPage {
+	background-color: white;
+	border-radius: 10px;
+}
+
+#jumboIntro {
+	padding-top: 2.5%;
+	border-radius: 4%;
+}
+
+#jumboImage {
+	background-image: url("https://images3.alphacoders.com/100/1002539.jpg");
+	/* background-image: url(""); */
+	background-size: cover;
+	background-repeat:no-repeat;
+	/* background-color: rgb(67, 70, 70); */
+}
+
+.jumbotron {
+	width: 90%;
+	border-radius: 40px;
+}
+
+
+h2.jumboH2 {
+	font-weight: bold;
+	color: white;
+}
+
+p.jumboP {
+	font-weight: bold;
+	color: white;
+}
+
+td {
+	justify-content: center;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+hr.style {
+	border: 0;
+    height: 1px;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.darkStyle {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(26, 26, 26, 0.75), rgba(255, 255, 255, 0));
+}
+
+#card:hover {
+	transform: scale(1.010);
+	border-radius: 10%;
+}
+
+#jumpToUdemy, #jumpToRyerson, #jumpToCT {
+	border: 3px solid rgb(55, 58, 255);
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+.myContact {
+	background-color: white;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 13px 13px rgb(61, 28, 80);
+}
+
+.myContactSide {
+	background-color: white;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 13px 13px rgb(61, 28, 80);
+}
+
+.quote {
+	border-left: 5px solid #424344;
+	padding-left: 5px;
+	font-size: medium;
+}
+
+.quoteList {
+	border-left: 4px solid #999a9b;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+.bulletPoint {
+	font-size: 14px;
+	color: black;
+	list-style: circle;
+}
+
+.bulletPointAlt {
+	font-size: 14px;
+	color: black;
+	list-style: none;
+}
+
+.fa-address-book {
+	color: rgb(20, 62, 180);
+}
+
+.fa-linkedin {
+	color: rgb(17, 57, 165);
+}
+
+#linkedinPositioning {
+	padding-top: 12px;
+	font-size: 15px;
+}
+
+#sideProfile {
+	border-radius: 37%;
+	/* border: 6px solid black; */
+	box-shadow: 0 4px 8px 0 rgba(4, 0, 255, 0.2), 0 6px 20px 0 rgba(0, 17, 255, 0.7);
+	width: 260px;
+  	height: auto;
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(60, 28, 68);
+	color: rgb(255, 255, 255);
+  }
+
+.footerFont {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #000000;
+    background-color: rgb(199, 199, 199);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 20% 50%;;
+	grid-gap: 37px;
+	justify-content: center;
+}
+
+.progress-bar {
+	background-color: #8650ebd7;
+	color: rgb(255, 255, 255);
+}
+
+a:href {
+	color: red;
+  }
+
+#link {
+	color:#5b27bbd7;;
+}
+
+#link:hover {
+	color: rgb(195, 92, 255);
+}
+
+/* .navbar-default {
+	background-color: rgb(60, 28, 68);
+	color: rgb(255, 255, 255);
+} */
